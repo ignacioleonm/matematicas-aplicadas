@@ -26,4 +26,17 @@ for i in range(6): #i asume valores enteros desde 0 hasta 5.
     termino = 5*0.92*n
     print(f'b({n}) = {termino}')
 
+#Ejercicio 6
+#Considere la sucesion b_n de término general (1 + 1/n)^n.
+#a) determine los términos b10, b100, b1000, b10000 y b100000.
+
+n = 0
+termino = 0
+for i in range (1,6):
+    n = 10**i
+    termino = (1 + 1/n)**n
+    print(f'b({n}) = {round(termino,6)}')
+
+
+
 
